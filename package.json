@@ -1,0 +1,30 @@
+{
+  "name": "CSVFileServer",
+  "version": "1.0.0",
+  "description": "The CSV File Server for Open Data Service project",
+  "main": "server.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://AdoHe@github.com/AdoHe/CSVFileServer.git"
+  },
+  "dependencies": {
+      "formidable": ">=1.0.11",
+      "node-static": ">=0.6.5",
+      "imagemagick": ">=0.1.3"
+   },
+  "keywords": [
+    "csv",
+    "file",
+    "upload",
+    "node",
+    "data"
+  ],
+  "author": "TonyHe <coolhzb@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdoHe/CSVFileServer/issues"
+  }
+}
