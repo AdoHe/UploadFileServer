@@ -37,6 +37,8 @@ module.exports = {
   db: {
     name: 'odata',
     host: '127.0.0.1',
-    port: '27017'
+    port: '27017',
+    adminName: 'odata',
+    adminPwd: 'odataTJ'
   }
 }
