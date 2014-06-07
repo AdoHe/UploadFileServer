@@ -12,14 +12,6 @@ module.exports = {
   acceptFileTypes: /.+/i,
   // Files not matched by this regular expression force a download dialog,
   // to prevent executing any scripts in the context of the service domain:
-  inlineFileTypes: /\.(gif|jpe?g|png)$/i,
-  imageTypes: /\.(gif|jpe?g|png)$/i,
-  imageVersions: {
-      'thumbnail': {
-          width: 80,
-          height: 80
-      }
-  },
   accessControl: {
       allowOrigin: '*',
       allowMethods: 'OPTIONS, HEAD, GET, POST, PUT, DELETE',
